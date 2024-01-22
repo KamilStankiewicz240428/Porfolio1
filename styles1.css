@@ -5,16 +5,18 @@ body {font-family: Arial, sans-serif;
     flex-direction: column;
 }
 header {
-    display: flex;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
   }
   section {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
