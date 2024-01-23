@@ -1,8 +1,11 @@
-body {font-family: Arial, sans-serif;
+body {
+  font-family: 'Bitter', serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
+    background-image: url(assets/pierun.jpg);
+    background-size: cover;
 }
 header {
     display: flex;
@@ -17,14 +20,34 @@ header {
   }
   section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: space-between;
   }
   .block{
    display: flex;
    justify-content: center;
    flex-direction: column;
    align-items: center;
+   padding-left: 50px;
+   padding-right: 50px;
+   color: white;
+   font-size: larger;
+   text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  a:visited{
+    color: rgb(200, 176, 223);
+  }
+  a:hover {
+    color: rgb(157, 92, 218);
   }
